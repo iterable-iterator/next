@@ -1,4 +1,5 @@
 import StopIteration from './StopIteration.js';
+import _next from './_next.js';
 
 /**
  * Returns the next value of the input iterator. If the iterator is exhausted,
@@ -11,7 +12,7 @@ import StopIteration from './StopIteration.js';
  * @returns {Object} The next value of the input iterator.
  */
 export default function next(iterator, dflt = undefined) {
-	const x = iterator.next();
+	const x = _next(iterator);
 
 	if (x.done) {
 		if (dflt === undefined) {
