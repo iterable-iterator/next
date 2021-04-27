@@ -7,9 +7,9 @@ import _next from './_next.js';
  * specified, in which case the <code>dflt</code> argument is returned.
  *
  * @param {Iterator} iterator - The input iterator.
- * @param {Object} [dflt=undefined] - The default value to return in the case
+ * @param {any} [dflt=undefined] - The default value to return in the case
  * that the input iterator is exhausted.
- * @returns {Object} The next value of the input iterator.
+ * @returns {any} The next value of the input iterator.
  */
 export default function next(iterator, dflt = undefined) {
 	const x = _next(iterator);
