@@ -59,7 +59,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@aureooms/js-error": "^5.0.3"
+    "@failure-abstraction/error": "^5.0.5"
   },
   "devDependencies": {
     "@babel/core": "7.14.0",
