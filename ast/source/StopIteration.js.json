@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 149,
+  "end": 157,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 149,
+    "end": 157,
     "loc": {
       "start": {
         "line": 1,
@@ -31,7 +31,7 @@
       {
         "type": "ExportNamedDeclaration",
         "start": 88,
-        "end": 148,
+        "end": 156,
         "loc": {
           "start": {
             "line": 5,
@@ -39,7 +39,7 @@
           },
           "end": {
             "line": 5,
-            "column": 60
+            "column": 68
           }
         },
         "declaration": null,
@@ -99,7 +99,7 @@
         "source": {
           "type": "StringLiteral",
           "start": 127,
-          "end": 147,
+          "end": 155,
           "loc": {
             "start": {
               "line": 5,
@@ -107,14 +107,14 @@
             },
             "end": {
               "line": 5,
-              "column": 59
+              "column": 67
             }
           },
           "extra": {
-            "rawValue": "@aureooms/js-error",
-            "raw": "'@aureooms/js-error'"
+            "rawValue": "@failure-abstraction/error",
+            "raw": "'@failure-abstraction/error'"
           },
-          "value": "@aureooms/js-error"
+          "value": "@failure-abstraction/error"
         },
         "leadingComments": [
           {
@@ -370,9 +370,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "@aureooms/js-error",
+      "value": "@failure-abstraction/error",
       "start": 127,
-      "end": 147,
+      "end": 155,
       "loc": {
         "start": {
           "line": 5,
@@ -380,7 +380,7 @@
         },
         "end": {
           "line": 5,
-          "column": 59
+          "column": 67
         }
       }
     },
@@ -397,16 +397,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 147,
-      "end": 148,
+      "start": 155,
+      "end": 156,
       "loc": {
         "start": {
           "line": 5,
-          "column": 59
+          "column": 67
         },
         "end": {
           "line": 5,
-          "column": 60
+          "column": 68
         }
       }
     },
@@ -423,8 +423,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 149,
-      "end": 149,
+      "start": 157,
+      "end": 157,
       "loc": {
         "start": {
           "line": 6,
