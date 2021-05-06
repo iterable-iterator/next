@@ -1,11 +1,12 @@
 import test from 'ava';
 
+import {iter} from '@iterable-iterator/iter';
 import {range} from '@iterable-iterator/range';
 import {next, StopIteration} from '../../src/index.js';
 
 test('empty range - dflt', (t) => {
 	t.throws(
-		() => next(range(0)),
+		() => next(iter(range(0))),
 		{instanceOf: StopIteration},
 		'next on empty iterator throws StopIteration',
 	);
@@ -14,14 +15,14 @@ test('empty range - dflt', (t) => {
 test('empty range + dflt', (t) => {
 	const dflt = {};
 	t.is(
-		next(range(0), dflt),
+		next(iter(range(0)), dflt),
 		dflt,
 		'next on empty iterator with default returns default',
 	);
 });
 
 test('range + dflt', (t) => {
-	const it = range(57, 14, -3);
+	const it = iter(range(57, 14, -3));
 	const dflt = {};
 
 	t.is(next(it), 57);
