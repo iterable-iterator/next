@@ -11,7 +11,7 @@ import _next from './_next.js';
  * that the input iterator is exhausted.
  * @returns {any} The next value of the input iterator.
  */
-export default function next(iterator, dflt = undefined) {
+const next = (iterator, dflt = undefined) => {
 	const x = _next(iterator);
 
 	if (x.done) {
@@ -23,4 +23,6 @@ export default function next(iterator, dflt = undefined) {
 	}
 
 	return x.value;
-}
+};
+
+export default next;

@@ -4,6 +4,5 @@
  * @param {Iterator} iterator - The input iterator.
  * @returns {{value: any, done?: boolean}}
  */
-export default function _next(iterator) {
-	return iterator.next();
-}
+const _next = (iterator) => iterator.next();
+export default _next;
