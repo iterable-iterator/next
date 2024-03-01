@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {iter} from '@iterable-iterator/iter';
 import {range} from '@iterable-iterator/range';
-import {next, StopIteration} from '../../src/index.js';
+import {next, StopIteration} from '#module';
 
 test('empty range - dflt', (t) => {
 	t.throws(

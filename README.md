@@ -19,7 +19,7 @@ next(iter(''), 'x'); // x
 
 [![License](https://img.shields.io/github/license/iterable-iterator/next.svg)](https://raw.githubusercontent.com/iterable-iterator/next/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/next.svg)](https://www.npmjs.org/package/@iterable-iterator/next)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/next/ci:cover?event=push&label=tests)](https://github.com/iterable-iterator/next/actions/workflows/ci:cover.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/next/ci?event=push&label=tests)](https://github.com/iterable-iterator/next/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/next.svg)](https://github.com/iterable-iterator/next/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/next.svg)](https://github.com/iterable-iterator/next/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/next.svg)](https://www.npmjs.org/package/@iterable-iterator/next)
