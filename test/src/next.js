@@ -3,7 +3,9 @@ import test from 'ava';
 import {iter} from '@iterable-iterator/iter';
 import {range} from '@iterable-iterator/range';
 
-import {next, StopIteration} from '#module';
+import {StopIteration} from './_fixtures.js';
+
+import {next} from '#module';
 
 test('empty range - dflt', (t) => {
 	t.throws(
